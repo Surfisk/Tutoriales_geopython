@@ -1,4 +1,7 @@
-#Abrir imagenes con API (Application Programming Interface) 
+# Codigo para Abrir imagenes con API (Application Programming Interface) basicamente es una interfaz por python para poder acceder a imagenes landsat 8 y Sentinel 1 2 y 3, de forma facil, con esto se 
+#pueden hacer tareas para descargar imagenes masivamente sin tener que descargarlas una por una. El tutorial original en ingles esta aca -> https://carpentries-incubator.github.io/geospatial-python/05-access-data/
+#Estas son las imagenes accesibles -> https://radiantearth.github.io/stac-browser/#/external/earth-search.aws.element84.com/v0?.language=es
+#Se deben descargar las librerias pystac, shapely, y rioxarray 
 
 
 api_url = "https://earth-search.aws.element84.com/v0"
